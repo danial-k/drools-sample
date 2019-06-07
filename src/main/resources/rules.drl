@@ -1,0 +1,10 @@
+package com.example.sample
+
+import com.example.Message;
+
+rule "Hello World"
+when
+  message:Message (type == 'Hello')
+then
+  message.printMessage();
+end

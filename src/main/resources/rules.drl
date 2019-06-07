@@ -1,6 +1,6 @@
 package com.example.sample
 
-import com.example.Message;
+import com.example.sample.Message;
 
 rule "Hello World"
 when
